@@ -24,6 +24,13 @@ if (fs.existsSync(assetsDir)) {
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&family=Noto+Sans+Tamil:wght@400;500;600;700&display=swap" />
+    <script>
+      window.$_TSR = window.$_TSR || {
+        buffer: [],
+        initialized: false,
+        router: { matches: [], manifest: { routes: {} } }
+      };
+    </script>
     ${cssTag}
   </head>
   <body>
